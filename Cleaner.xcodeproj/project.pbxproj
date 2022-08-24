@@ -10,9 +10,16 @@
 		D7DF5E8E28B58FAC0010376A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DF5E8D28B58FAC0010376A /* AppDelegate.swift */; };
 		D7DF5E9028B58FAC0010376A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DF5E8F28B58FAC0010376A /* SceneDelegate.swift */; };
 		D7DF5E9228B58FAC0010376A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DF5E9128B58FAC0010376A /* ViewController.swift */; };
-		D7DF5E9528B58FAC0010376A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7DF5E9328B58FAC0010376A /* Main.storyboard */; };
 		D7DF5E9728B58FAE0010376A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7DF5E9628B58FAE0010376A /* Assets.xcassets */; };
 		D7DF5E9A28B58FAE0010376A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7DF5E9828B58FAE0010376A /* LaunchScreen.storyboard */; };
+		D7DF5EA228B590330010376A /* CleanerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DF5EA128B590330010376A /* CleanerViewController.swift */; };
+		D7DF5EA628B5907C0010376A /* UIView + addShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DF5EA528B5907C0010376A /* UIView + addShadow.swift */; };
+		D7DF5EA828B590F20010376A /* ButtonBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DF5EA728B590F20010376A /* ButtonBaseClass.swift */; };
+		D7DF5EAA28B591190010376A /* GeneralButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DF5EA928B591190010376A /* GeneralButton.swift */; };
+		D7DF5EAC28B5916B0010376A /* AdvancedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DF5EAB28B5916B0010376A /* AdvancedButton.swift */; };
+		D7DF5EAE28B591960010376A /* InfoLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DF5EAD28B591960010376A /* InfoLabel.swift */; };
+		D7DF5EB228B65CC50010376A /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7DF5EB028B65CC50010376A /* Roboto-Medium.ttf */; };
+		D7DF5EB328B65CC50010376A /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7DF5EB128B65CC50010376A /* Roboto-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +27,17 @@
 		D7DF5E8D28B58FAC0010376A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7DF5E8F28B58FAC0010376A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D7DF5E9128B58FAC0010376A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D7DF5E9428B58FAC0010376A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D7DF5E9628B58FAE0010376A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7DF5E9928B58FAE0010376A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7DF5E9B28B58FAE0010376A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7DF5EA128B590330010376A /* CleanerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanerViewController.swift; sourceTree = "<group>"; };
+		D7DF5EA528B5907C0010376A /* UIView + addShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + addShadow.swift"; sourceTree = "<group>"; };
+		D7DF5EA728B590F20010376A /* ButtonBaseClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBaseClass.swift; sourceTree = "<group>"; };
+		D7DF5EA928B591190010376A /* GeneralButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralButton.swift; sourceTree = "<group>"; };
+		D7DF5EAB28B5916B0010376A /* AdvancedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedButton.swift; sourceTree = "<group>"; };
+		D7DF5EAD28B591960010376A /* InfoLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoLabel.swift; sourceTree = "<group>"; };
+		D7DF5EB028B65CC50010376A /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		D7DF5EB128B65CC50010376A /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +73,43 @@
 				D7DF5E8D28B58FAC0010376A /* AppDelegate.swift */,
 				D7DF5E8F28B58FAC0010376A /* SceneDelegate.swift */,
 				D7DF5E9128B58FAC0010376A /* ViewController.swift */,
-				D7DF5E9328B58FAC0010376A /* Main.storyboard */,
+				D7DF5EA128B590330010376A /* CleanerViewController.swift */,
+				D7DF5EAF28B65CC50010376A /* Fonts */,
+				D7DF5EA328B590540010376A /* Extensions */,
 				D7DF5E9628B58FAE0010376A /* Assets.xcassets */,
+				D7DF5EA428B5905E0010376A /* UIElements */,
 				D7DF5E9828B58FAE0010376A /* LaunchScreen.storyboard */,
 				D7DF5E9B28B58FAE0010376A /* Info.plist */,
 			);
 			path = Cleaner;
+			sourceTree = "<group>";
+		};
+		D7DF5EA328B590540010376A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D7DF5EA528B5907C0010376A /* UIView + addShadow.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D7DF5EA428B5905E0010376A /* UIElements */ = {
+			isa = PBXGroup;
+			children = (
+				D7DF5EA728B590F20010376A /* ButtonBaseClass.swift */,
+				D7DF5EA928B591190010376A /* GeneralButton.swift */,
+				D7DF5EAB28B5916B0010376A /* AdvancedButton.swift */,
+				D7DF5EAD28B591960010376A /* InfoLabel.swift */,
+			);
+			path = UIElements;
+			sourceTree = "<group>";
+		};
+		D7DF5EAF28B65CC50010376A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D7DF5EB028B65CC50010376A /* Roboto-Medium.ttf */,
+				D7DF5EB128B65CC50010376A /* Roboto-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +172,8 @@
 			files = (
 				D7DF5E9A28B58FAE0010376A /* LaunchScreen.storyboard in Resources */,
 				D7DF5E9728B58FAE0010376A /* Assets.xcassets in Resources */,
-				D7DF5E9528B58FAC0010376A /* Main.storyboard in Resources */,
+				D7DF5EB328B65CC50010376A /* Roboto-Regular.ttf in Resources */,
+				D7DF5EB228B65CC50010376A /* Roboto-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +184,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7DF5EAE28B591960010376A /* InfoLabel.swift in Sources */,
 				D7DF5E9228B58FAC0010376A /* ViewController.swift in Sources */,
+				D7DF5EAC28B5916B0010376A /* AdvancedButton.swift in Sources */,
+				D7DF5EA628B5907C0010376A /* UIView + addShadow.swift in Sources */,
 				D7DF5E8E28B58FAC0010376A /* AppDelegate.swift in Sources */,
+				D7DF5EA828B590F20010376A /* ButtonBaseClass.swift in Sources */,
 				D7DF5E9028B58FAC0010376A /* SceneDelegate.swift in Sources */,
+				D7DF5EA228B590330010376A /* CleanerViewController.swift in Sources */,
+				D7DF5EAA28B591190010376A /* GeneralButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D7DF5E9328B58FAC0010376A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D7DF5E9428B58FAC0010376A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D7DF5E9828B58FAE0010376A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +336,7 @@
 				INFOPLIST_FILE = Cleaner/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,7 +348,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,7 +364,7 @@
 				INFOPLIST_FILE = Cleaner/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,7 +376,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
