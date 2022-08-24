@@ -18,8 +18,8 @@ class ViewController: UIViewController {
         return imageView
     }()
     
-    private lazy var btnCleaner = GeneralButton(image: UIImage(systemName: "rectangle.portrait.and.arrow.right"),
-                                        title: "CLEANER")
+    private lazy var btnCleaner = GeneralButton(image: UIImage(systemName: "archivebox"),
+                                                title: "CLEANER")
     
     override func viewDidLoad() {
         super.viewDidLoad()
